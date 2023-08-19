@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;900&family=Montserrat&family=Noto+Sans:wght@300&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Quattrocento&family=Roboto+Condensed:wght@300&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 489px;
+    height: 421px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+background: #FFF;
+box-shadow:30px -30px 100px 0px rgba(0, 87, 255, 0.47),
+-30px 30px 100px 0px rgba(251, 24, 78, 0.47);
+box-sizing: border-box;
+    
+}
+.calculator > h1{
+    color: #2B2B2B;
+text-align: center;
+font-family: Montserrat;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+.input input{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    font-weight: 600;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+}
+.buttons button{
+    width: 50px;
+    height: 40px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+}
+.error{
+    color:red;
+    font-size: 18px;
+    font-weight: 600;
+}
+.success{
+    color: green;
+    font-size: 18px;
+    font-weight: 600;
+}
