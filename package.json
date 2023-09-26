@@ -1,4 +1,5 @@
 {
+  "homepage": "https://rohitk7879.github.io/f4-c1-aug",
   "name": "f4-c1-aug",
   "version": "0.1.0",
   "private": true,
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
